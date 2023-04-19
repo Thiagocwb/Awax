@@ -186,3 +186,25 @@ header{
     width: 480px;
     box-shadow: 0px 5px 10px #333; /*sombra de fumaça*/
 }
+.section-services{
+    display: flex;
+}
+.section-service{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.section-service:first-child{/* ira aplicar apenas na section-service*/
+    border-left: 1px solid #333;
+}
+.section-service h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.section-service p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
