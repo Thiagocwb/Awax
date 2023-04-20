@@ -29,6 +29,9 @@ header{
     background-color: #b28756;
     border-radius: 40px;
 }
+.menu-opener {
+    display:none;
+}
 .menu{
     flex: 1;
     display: flex;
@@ -70,6 +73,12 @@ header{
     margin-top: 30px;
     border-radius: 20px;
 }
+.button--dark {
+    background-color:#000;
+}
+.button--dark:hover {
+    background-color:#B28756;
+}
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
@@ -95,7 +104,6 @@ header{
     align-items: center;
     color: white;
     justify-content: center;
-    flex-direction: column;
 }
 .banner h1{
     text-transform: uppercase;
@@ -132,7 +140,6 @@ header{
     background-color: #b28756;
 }
 .default{
-    width: 100vw;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -169,6 +176,7 @@ header{
 .default.dark .section-body{
     color: white;
 }
+
 .section-aboutus{
     display: flex;
 }
@@ -371,3 +379,70 @@ header{
 .section-team--social a:hover{
     background-color: #b28756;
 }
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.section-clients--avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-client--avatar{
+    width: 140px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.section-clients--name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.section-clients--role{
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 25px
+}
+.reviews p{
+    color: #999;
+}
+.section-clients--quoto{
+    width: 20px;
+    margin-bottom: 15px;
+}
+
+.section-clients-area .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-clients-area .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-clients-area .pointer.active{
+    background-color: #b28756;
+}
+
+
